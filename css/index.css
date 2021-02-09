@@ -1,0 +1,137 @@
+.nav-wrapper{
+    padding-right: 100px;
+    padding-left: 150px;
+}
+
+.barra{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+}
+
+.titulo{
+    font-size: 100px;
+    font-weight: 800;
+    font-family: 'Raleway', sans-serif;
+}
+
+.chikito{
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+}
+
+.schedule{
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+    background-color: #c51162;
+}
+
+.caja{
+    display: flex;
+    flex-direction: column;
+}
+
+.who{
+    font-weight: 800;
+    font-family: 'Raleway', sans-serif;
+}
+
+.just{
+    background-color: white;
+    color: black;
+    font-weight: 800;
+    font-size: large;
+    font-family: 'Raleway', sans-serif;
+}
+
+.trainer{
+    padding-top: 100px;
+    padding-bottom: 50px;
+    font-size: 30px;
+    font-weight: 800;
+    font-family: 'Raleway', sans-serif;
+}
+
+.culiaos{
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 100px;
+}
+
+.parallax-container{
+    height: 700px;
+}
+
+.overlay{
+    margin: auto;
+    margin-top: 150px;
+    text-align:center;
+    font-family: 'Raleway', sans-serif;
+}
+
+.overlay h2{
+    font-weight: 800;
+    color: white;
+    font-size: 80px;
+}
+
+.overlay h3{
+    font-weight: 700;
+    color: white;
+    font-size: 30px;
+}
+
+.overlay button{
+    margin-top: 100px;
+    font-family: 'Raleway', sans-serif;
+    font-size: large;
+    background-color: #40c4ff;
+}
+
+.poto{
+    font-weight: 800;
+    font-family: 'Raleway', sans-serif;
+}
+
+.container{
+    margin-top: 150px;
+}
+
+.footer{
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    font-size: large;
+}
+
+.social p{
+    margin-bottom: 80px;
+}
+
+.social a{
+    color: #40c4ff;
+    margin-right: 60px;
+    font-size: larger;
+}
+
+.horario{
+    margin-left: 20px;
+    font-family: sans-serif;
+    color: grey;
+}
+
+.email{
+    font-size: large;
+    font-family: sans-serif;
+    color: #40c4ff;
+}
+
+@media screen and (max-width: 768px){
+    .titulo{
+        font-size: 70px;
+    }
+    .culiaos{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    
+}
